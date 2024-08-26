@@ -87,12 +87,12 @@ const AuthForm = ({ type }: { type: string }) => {
       <header className='flex flex-col gap-5 md:gap-8'>
           <Link href="/" className="cursor-pointer flex items-center gap-1">
             <Image 
-              src="/icons/logo.svg"
-              width={34}
-              height={34}
-              alt="Banq logo"
+              src="/public/images/bankstackfull.png"
+              width={270}
+              height={170}
+              alt="Bank Stack logo"
             />
-            <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">Banq</h1>
+            <h1 className="text-28 font-ibm-plex-serif font-bold text-black-1">Bank Stack</h1>
           </Link>
 
           <div className="flex flex-col gap-1 md:gap-3">
@@ -128,13 +128,13 @@ const AuthForm = ({ type }: { type: string }) => {
                   </div>
                   <CustomInput control={form.control} name='address1' label="Address" placeholder='Enter your specific address' />
                   <CustomInput control={form.control} name='city' label="City" placeholder='Enter your city' />
-                  <div className="flex gap-4">
-                    <CustomInput control={form.control} name='state' label="State" placeholder='Example: NY' />
-                    <CustomInput control={form.control} name='postalCode' label="Postal Code" placeholder='Example: 11101' />
+                  <div className="">
+                    {/* <CustomInput control={form.control} name='state' label="State" placeholder='Example: NY' /> */}
+                    <CustomInput control={form.control} name='postalCode' label="Postal Code" placeholder='Example: 00100' />
                   </div>
                   <div className="flex gap-4">
-                    <CustomInput control={form.control} name='dateOfBirth' label="Date of Birth" placeholder='YYYY-MM-DD' />
-                    <CustomInput control={form.control} name='ssn' label="SSN" placeholder='Example: 1234' />
+                    <CustomInput control={form.control} name='dateOfBirth' label="Date of Birth" placeholder='DD-MM-YYYY' />
+                    <CustomInput control={form.control} name='ssn' label="SSN" placeholder='Example: 12345678' />
                   </div>
                 </>
               )}

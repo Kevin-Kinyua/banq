@@ -12,8 +12,8 @@ const ibmPlexSerif = IBM_Plex_Serif({
 })
 
 export const metadata: Metadata = {
-  title: "Banq",
-  description: "Banq is a modern banking platform for everyone.",
+  title: "Bank Stack",
+  description: "Ban is a modern banking platform for everyone.",
   icons: {
     icon: '/icons/logo.svg'
   }

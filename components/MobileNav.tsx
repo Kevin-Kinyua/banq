@@ -37,9 +37,9 @@ const MobileNav = ({ user }: MobileNavProps) => {
               src="/icons/logo.svg"
               width={34}
               height={34}
-              alt="Banq logo"
+              alt="Bank Stack logo"
             />
-            <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">Banq</h1>
+            <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">Bank Stack</h1>
           </Link>
           <div className="mobilenav-sheet">
             <SheetClose asChild>
